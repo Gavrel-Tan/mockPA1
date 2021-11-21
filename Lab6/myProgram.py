@@ -17,7 +17,7 @@ class Vehicle:
         self.maximum_velocity = maximum_velocity
 
     def drive(self):
-        print("The vehicle is in driving mode now.");
+        print("The vehicle is in driving mode now.")
 
 
 # Q5
@@ -54,5 +54,3 @@ class Computer:
 mario = Computer("mario")
 mario.play()
 # Additional Challenge Q11
-
-
