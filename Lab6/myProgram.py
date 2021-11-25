@@ -54,3 +54,28 @@ class Computer:
 mario = Computer("mario")
 mario.play()
 # Additional Challenge Q11
+petStr = "dog cat dog dog cat cat cat bird cat cat bird dog fish"
+
+
+class Petshop:
+    petDict = {}
+
+    def countPets(self, petStr):
+        petList = petStr.split()
+        print(petList)
+        for key in petList:
+            print(key)
+            # key is found in dictionary
+            if key in self.petDict:
+                self.petDict[key] += 1
+            # key is'nt found in dictionary
+            else:
+                self.petDict[key] = 1
+
+
+# create Petshop object
+petObj = Petshop()
+# function call
+petObj.countPets(petStr)
+for key, value in petObj.petDict.items():
+    print("Number of ", key, ":", value)
