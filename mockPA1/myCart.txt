@@ -1,0 +1,3 @@
+Chicken Nugget	6.55
+Ham Burger	4.30
+Coke	2.50
